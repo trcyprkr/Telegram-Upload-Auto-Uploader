@@ -27,3 +27,4 @@ for root, subFolder, files in os.walk(PATH):
         time.sleep(1) # This was needed to break the loop long enough for the 'get_sleep' timer below become active
         print(" <<... Waiting To Upload New File ...>> ")
         time.sleep(get_sleeptime(0, 0)) #Here the sleep timer is set to 0 Hour, 0 Second, which is the top of the hour
+ # Change the time settings here ^  ^ to fit your particular needs
